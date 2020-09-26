@@ -19,11 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1752da34-bad8-4ed5-935c-c318712ceb74" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DigitalHouseDesafioModulo1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DigitalHouseDesafioModulo1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/digitalhouse/desafio1/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/digitalhouse/desafio1/main.kt" afterDir="false" />
-    </list>
+    <list default="true" id="1752da34-bad8-4ed5-935c-c318712ceb74" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
