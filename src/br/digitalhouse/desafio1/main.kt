@@ -6,11 +6,12 @@ fun main(){
     val aluno2 = Aluno("Gustavo","Santos",2)
     val aluno3 = Aluno("Liz","Siso",3)
 
-    val professor1 = Professor("Carlos","Adão",1,1)
-    val professor2 = Professor("Vitoria","Gonçalves",5,2)
+    val listaAluno = mutableListOf<Aluno>()
 
-    val professorTitular1 = ProfessorTitular("Mestre em Kotlin")
+    val professor1 = ProfessorTitular("Kotlin","Carlos","Adão",1,1)
+    val professor2 = ProfessorAdjunto(20,"Vitoria","Gonçalves",5,2)
 
-    //val curso1 = Curso("Desenvolvimento em Kotlin",2,)
+    val curso1 = Curso("Desenvolvimento em Kotlin",2,professor1,professor2,10,listaAluno)
+
 
 }
