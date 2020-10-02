@@ -3,7 +3,7 @@ package br.digitalhouse.desafio1
 class DigitalHouseManager(var listaDeAlunos: MutableMap<Int, Aluno> = mutableMapOf(),
                           var listaDeProfessores: MutableMap<Int, Professor> = mutableMapOf(),
                           var listaDeCursos: MutableMap<Int, Curso> = mutableMapOf(),
-                          var listaDeMatriculas: MutableList<Matricula>) {
+                          var listaDeMatriculas: MutableList<Matricula>? = null) {
 
     fun registrarCurso(nome: String, codigoCurso: Int, quantidadeMaximaDeAlunos: Int ){
        listaDeCursos[codigoCurso] = Curso(nome,codigoCurso,null,null,quantidadeMaximaDeAlunos,null)
@@ -30,6 +30,19 @@ class DigitalHouseManager(var listaDeAlunos: MutableMap<Int, Aluno> = mutableMap
         Aluno(nome,sobrenome,codigoAluno)
     }
 
-//    fun matricularAlunoCurso(codigoAluno: Int, codigoCurso: Int) //Acrescentei o "Curso" no nome da função
-//        val aluno = listaDeAlunos.containsKey(c)
+    fun matricularAluno(codigoAluno: Int, codigoCurso: Int) {
+        val aluno = listaDeAlunos.get(codigoAluno)
+        val curso = listaDeCursos.get(codigoCurso)
+        when{
+            aluno == null -> println("Aluno não encontrado")
+            curso == null -> println("Curso não encontrado")
+            else -> curso?.adicionarUmAluno(aluno)
+        }
+    }
+
+    fun alocarProfessores(codigoCurso: Int,codigoProfessorTitular:  Int, codigoProfessorAdjunto:Int){ //TODO
+        val professorTitular = listaDeProfessores.get(codigoProfessorTitular)
+        val professorAdjunto = listaDeProfessores.get(codigoProfessorAdjunto)
+    }
+
 }

@@ -13,5 +13,11 @@ fun main(){
 
     val curso1 = Curso("Desenvolvimento em Kotlin",2,professor1,professor2,10,listaAluno)
 
+    val gerencia = DigitalHouseManager()
+
+    gerencia.matricularAluno(3,2)
+
+
+
 
 }

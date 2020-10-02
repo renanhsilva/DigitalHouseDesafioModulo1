@@ -20,15 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1752da34-bad8-4ed5-935c-c318712ceb74" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/br/digitalhouse/desafio1/DigitalHouseManager.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/digitalhouse/desafio1/Aluno.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/digitalhouse/desafio1/Aluno.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/digitalhouse/desafio1/Curso.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/digitalhouse/desafio1/Curso.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/digitalhouse/desafio1/DigitalHouse.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/digitalhouse/desafio1/Matricula.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/digitalhouse/desafio1/Matricula.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/digitalhouse/desafio1/Professor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/digitalhouse/desafio1/Professor.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/digitalhouse/desafio1/ProfessorAdjunto.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/digitalhouse/desafio1/ProfessorAdjunto.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/digitalhouse/desafio1/ProfessorTitular.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/digitalhouse/desafio1/ProfessorTitular.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/digitalhouse/desafio1/DigitalHouseManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/digitalhouse/desafio1/DigitalHouseManager.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/digitalhouse/desafio1/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/digitalhouse/desafio1/main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,6 +53,26 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
+  <component name="RunManager">
+    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="DigitalHouseDesafioModulo1" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="br.digitalhouse.desafio1.MainKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.MainKt" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -81,5 +95,23 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1601609857248">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601609857248" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1601609857248">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601609857248" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1601609857247">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601609857247" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1601609857248">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601609857248" />
   </component>
 </project>
