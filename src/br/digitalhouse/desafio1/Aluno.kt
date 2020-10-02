@@ -1,7 +1,11 @@
 package br.digitalhouse.desafio1
 
-open class Aluno(val nome: String,
-            val sobrenome: String,
-            val codAluno: Int ) {
+class Aluno(val codAluno: Int,
+            val nome: String,
+            val sobrenome: String
+             ) {
 
+    override fun toString(): String {
+        return "Aluno $nome $sobrenome codigo = $codAluno \n"
+    }
 }
