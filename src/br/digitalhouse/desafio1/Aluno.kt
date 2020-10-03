@@ -6,6 +6,6 @@ class Aluno(val codAluno: Int,
              ) {
 
     override fun toString(): String {
-        return "Aluno $nome $sobrenome codigo = $codAluno \n"
+        return "Aluno: $nome $sobrenome, Codigo: $codAluno \n"
     }
 }

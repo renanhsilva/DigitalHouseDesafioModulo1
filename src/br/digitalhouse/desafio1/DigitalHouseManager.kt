@@ -62,7 +62,8 @@ class DigitalHouseManager() {
         when{
             aluno == null -> println("Aluno não encontrado")
             curso == null -> println("Curso não encontrado")
-            else -> curso.adicionarUmAluno(aluno)
+            else -> {curso.adicionarUmAluno(aluno)
+            listaDeMatriculas.add(Matricula(aluno,curso))}
         }
     }
 
@@ -70,7 +71,7 @@ class DigitalHouseManager() {
         val professorTitular = listaDeProfessores[codigoProfessorTitular]
         if (professorTitular == null) println("Professor Titular nao encontrado")
         val professorAdjunto = listaDeProfessores[codigoProfessorAdjunto]
-        if (professorTitular == null) println("Professor Adjunto não encontrado")
+        if (professorAdjunto == null) println("Professor Adjunto não encontrado")
         val curso = listaDeCursos[codigoCurso]
         if (curso != null) {
             curso.professorTitular = professorTitular as ProfessorTitular?
@@ -78,13 +79,6 @@ class DigitalHouseManager() {
         }else{
             println("Curso não encontrado")
         }
-    }
-
-    fun verdados(){
-        println(listaDeAlunos)
-        println(listaDeCursos)
-        println(listaDeMatriculas)
-        println(listaDeProfessores)
     }
 
 }

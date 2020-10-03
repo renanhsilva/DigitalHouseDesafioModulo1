@@ -21,7 +21,7 @@ class Principal {
 
 
         //alocando professores no curso
-        digitalHouseManager.alocarProfessores(2001,1,3)
+        digitalHouseManager.alocarProfessores(2001,10,3)
         digitalHouseManager.alocarProfessores(2002,2,4)
 
         //matriculando os alunos
@@ -38,8 +38,6 @@ class Principal {
         digitalHouseManager.matricularAluno(3,2002)
         digitalHouseManager.matricularAluno(4,2002)
         digitalHouseManager.matricularAluno(5,2002)
-
-        digitalHouseManager.verdados()
 
     }
 }
